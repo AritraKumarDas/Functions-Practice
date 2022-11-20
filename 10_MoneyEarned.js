@@ -3,14 +3,10 @@
 
 function ageChecker(age) {
 
-    if (18 <= age && age <= 60) {
-        return true;
-    } else {
-        return false;
-    }
+    return 18 <= age && age <= 60
 }
 
-const inputAge = 61;      // Take age input from keyboard
+const inputAge = 60;      // Take age input from keyboard
 
 if (ageChecker(inputAge)) {
     console.log("MONEY EARNED: " + (inputAge * 1000))
