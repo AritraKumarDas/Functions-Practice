@@ -3,7 +3,7 @@
 
 function replaceSpace(str) {
 
-    return str.split(' ').join('-')
+    return str.replaceAll(' ', '-')
 }
 
 const inputStr = "I AM RAM DATTA"   // Take input here
