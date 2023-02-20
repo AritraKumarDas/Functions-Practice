@@ -1,0 +1,15 @@
+function isPrime(n){
+    if(n<2){
+    return "Not Prime";
+        
+    }
+    for(i=2;i<n;i++){
+        if(n%i===0){
+            return "Not prime"
+        }
+    }
+    return "Prime"
+}
+
+console.log(isPrime(237));
+
